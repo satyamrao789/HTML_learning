@@ -1,0 +1,15 @@
+Drag & Drop HTML files in browser to see it rendered.
+
+<img src="https://img.freepik.com/premium-photo/man-standing-front-planet-with-planets-background_900396-14752.jpg" width="100%">
+- giving width=100%, image occupies full image width & is even responsive
+
+What is srcset attribute?
+
+<img src="default-image.jpg" 
+     srcset="image-1x.jpg 1x, 
+             image-2x.jpg 2x, 
+             image-3x.jpg 3x"
+     alt="Description of the image">
+The srcset attribute is an HTML attribute used with the <img> (image) element to provide multiple sources and resolutions for an image.
+The browser uses this information to fetch and display the most suitable image, thereby improving performance and reducing unnecessary 
+data transfer for users on lower-resolution screens.
