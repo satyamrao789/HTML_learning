@@ -19,3 +19,6 @@ See images/1_input_type
 <input type="time" placeholder="Select time"> - time picker
 <input type="color" placeholder="Pick color"> - color picker
 <input type="file" placeholder="Choose file"> - browse & upload a file
+
+Metadata - present inside head tag
+		 - holds extra information(scripts, title, styles..etc)
