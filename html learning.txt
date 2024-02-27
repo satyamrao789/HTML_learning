@@ -13,3 +13,8 @@ What is srcset attribute?
 The srcset attribute is an HTML attribute used with the <img> (image) element to provide multiple sources and resolutions for an image.
 The browser uses this information to fetch and display the most suitable image, thereby improving performance and reducing unnecessary 
 data transfer for users on lower-resolution screens.
+
+See images/1_input_type
+<input type="date"> - date picker
+<input type="time"> - time picker
+<input type="color"> - color picker
