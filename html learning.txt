@@ -22,3 +22,27 @@ See images/1_input_type
 
 Metadata - present inside head tag
 		 - holds extra information(scripts, title, styles..etc)
+
+sometimes margin-top, margin-bottom collapses.
+
+Centering with margins
+---display: block;
+---must have a width;
+---margin left/right : auto;
+
+example:
+if display:block;
+   width:200px;
+   now some space is present in right-hand side.
+   we write margin-left: auto; - it means take all the empty space on the right-hand side.
+   now the pic will move to complete right, leaving space in left-hand side.
+   we write margin-right: auto; - it means take all the empty space on the left-hand side.
+   but here margin-left: auto; is also applied .
+   so , mutually image comes in center, keeping equal amount of spaces on both left & right sides.
+   
+   img {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+	}
