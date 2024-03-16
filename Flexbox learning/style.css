@@ -1,8 +1,8 @@
 .container{
     background-color: grey;
     margin: 20px 20px;
-    /* height: 500px;
-    width: 400px; */
+    height: 500px;
+    width: 400px;
     border-radius: 10px;
     border: 5px solid black;
     /* Flexbox properties */
@@ -24,7 +24,7 @@
     flex-wrap:wrap;
 
     /* align-content comes after flex-wrap only */
-    align-content:center;
+    /* align-content:center; */
 
 
     /* Order properties--> */
@@ -48,15 +48,24 @@
     /* 2 - 2x grow krega
     1 - 1x grow krega */
     #box1{
-        flex-grow: 2; 
-        flex-shrink: 1;
+        /* flex-grow: 2; 
+        flex-shrink: 1; */
+
+        /* to give size more than given previously */
+        flex-basis: 100px;
+        /* control the alignment of individual flex items on the cross-axis */
+        align-self: center;
     }
     #box2{
-       flex-grow: 1;
-       flex-shrink: 3;
+       /* flex-grow: 1;
+       flex-shrink: 3; */
+
+       flex-basis: 20px;
+       align-self: flex-start;
     }
     #box3{
-        
+        flex-basis: 150px;
+        align-self: flex-end;
     }
     #box4{
        
