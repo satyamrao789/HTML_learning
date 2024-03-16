@@ -8,7 +8,14 @@
     /* Flexbox properties */
     display: flex;   
     /* flex-direction:column-reverse; */
-    justify-content:space-between;
+    justify-content:space-between;  
+    /* justify-content -  works in horizantal axis
+
+    align-items - works in vertical axis */
+    align-items:baseline;
+
+    
+
 }
 .box{
     height: 50px;
