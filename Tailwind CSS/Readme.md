@@ -1,6 +1,6 @@
 ## Deployed Application
 
-Checkout [Gentle Giants](https://gentle-giants.netlify.app/).
+#Checkout [Gentle Giants](https://gentle-giants.netlify.app/)
 
 ## Application Picture
 
