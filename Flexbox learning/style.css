@@ -28,7 +28,7 @@
 
 
     /* Order properties--> */
-    #box1{
+    /* #box1{
         order: 1;
     }
     #box2{
@@ -39,6 +39,27 @@
     }
     #box4{
         order: 4;
+    } */
+
+    
+    /* FLEX grow & FLEX Shrink properties--> */
+
+    /* Concept- if after display all flex items in a row, space is left flex - grow and flex- shrink is applied to take the remaining space */
+    /* 2 - 2x grow krega
+    1 - 1x grow krega */
+    #box1{
+        flex-grow: 2; 
+        flex-shrink: 1;
+    }
+    #box2{
+       flex-grow: 1;
+       flex-shrink: 3;
+    }
+    #box3{
+        
+    }
+    #box4{
+       
     }
 
     
